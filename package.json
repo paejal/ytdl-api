@@ -1,0 +1,25 @@
+{
+    "name": "ytdl-api",
+    "description": "",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/paejal/ytdl-api.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/paejal/ytdl-api.git/issues"
+    },
+    "homepage": "https://github.com/paejal/ytdl-api.git#readme",
+    "dependencies": {
+        "@vreden/youtube_scraper": "^1.2.9",
+        "cors": "^2.8.6",
+        "express": "^5.2.1"
+    }
+}
